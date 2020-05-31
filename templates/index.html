@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Example</title>
+    </head>
+    <body>
+        <p>This is an example of a simple HTML page with one paragraph.</p>
+        <br>
+        <br>
+        <form action="/predict" method="POST">
+		  <label for="fname">First name:</label><br>
+		  
+		  <input type="number" id="lname" name="lname"><br>
+		  <input type="submit" value="Submit">
+		</form>
+
+
+		{{prediction_text}}
+        
+    </body>
+</html>
